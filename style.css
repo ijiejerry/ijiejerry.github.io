@@ -1,0 +1,64 @@
+/* Reset some default styles and provide a basic styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(0, 183, 255);
+    /* background-image: url('/images/image.jpg'); */
+    /* background-repeat: no-repeat; */
+}
+
+
+h1 {
+    color: #333; 
+    font-size: 2em; 
+    font-weight: bold; 
+    margin-bottom: 20px;
+  }
+
+
+
+ 
+.image {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+    padding: auto;
+    margin: 0 auto; 
+    border: 2px solid #ddd;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s; 
+  }
+  
+ 
+  a:hover {
+    color: #0066cc; 
+  }
+  
+a:visited {
+    color: #800080; 
+    text-decoration: underline; 
+  }
+  
+a:active {
+    color: #ff0000;
+    text-decoration: none; 
+  }
+
+.date{
+    text-decoration: #0066cc;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+
